@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ts-gyak-0211</title>
+  </head>
+  <body>
+<form>
+  <div>
+    <label for="nev">Plüss neve:</label>
+    <input type="text" id="nev">
+  </div>
+
+  <div>
+    <label for="magassag">Plüss magassága:</label>
+    <input type="number" id="magassag">
+  </div>
+
+  <div>
+    <span>Plüss színe:</span><br>
+    <input type="radio" id="piros" name="szinekValasztas" value="Piros">
+    <label for="piros">Piros</label><br>
+
+    <input type="radio" id="barna" name="szinekValasztas" value="Barna">
+    <label for="barna">Barna</label><br>
+
+    <input type="radio" id="sarga" name="szinekValasztas" value="Sárga">
+    <label for="sarga">Sárga</label>
+  </div>
+
+  <input type="submit" value="Mentés">
+</form>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
